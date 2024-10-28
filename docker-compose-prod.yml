@@ -1,0 +1,7 @@
+services:
+  amr:
+    build:
+      context: .
+      target: production
+    environment:
+      - node-env=production

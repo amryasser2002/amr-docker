@@ -1,0 +1,11 @@
+services:
+  amr:
+    container_name: cont-amr2
+    build: .
+    volumes:
+      - C:\Users\amrya\OneDrive\Desktop\amr\src:/app/src:ro
+    ports:
+      - "5002:5002"
+    env_file:
+      - ./.env
+
