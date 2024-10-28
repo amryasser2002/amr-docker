@@ -4,7 +4,7 @@ services:
       context: .
       target: development
     volumes:
-      - C:\Users\amrya\OneDrive\Desktop\amr:/app:ro
+      - C:\Users\amrya\OneDrive\Desktop\amr/src:/app/src:ro
     environment:
       - node-env=development
 
