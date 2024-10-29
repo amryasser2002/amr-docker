@@ -1,6 +1,7 @@
 services:
   amr:
     container_name: cont-amr2
+    image: iamamryasser/amr-docker
     ports:
       - "5002:5002"
     env_file:
