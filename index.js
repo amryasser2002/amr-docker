@@ -5,7 +5,7 @@
     const app = express();
    // mongoose.connect(`mongodb://root:example@mongo:27017`);
 
-    app.get('/', (req, res) => res.send('<h1> hello amr 555555555555555 <h1>'));
+    app.get('/', (req, res) => res.send('<h1> hello amr <h1>'));
 
     app.listen(PORT, () => console.log(`app is on on port : ${PORT}`));
    // .then(() => console.log('connect to db .....')).catch((err) => console.log('failed to connect ...:', err))
