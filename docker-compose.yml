@@ -1,3 +1,4 @@
+version: '3'
 services:
   amr:
     container_name: cont-amr2
