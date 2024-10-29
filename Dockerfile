@@ -10,7 +10,7 @@ COPY . .
 EXPOSE 5002
 CMD ["npm" , "start" ]
 
-FROM node:14 as development
+FROM base as development
 
 WORKDIR /app
 COPY package.json .
