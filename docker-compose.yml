@@ -1,11 +1,11 @@
 version: '3'
 services:
   amr:
-    container_name: cont-amr2
-    image: iamamryasser/amr-docker
-    ports:
+     container_name: cont-amr2
+     image: iamamryasser/amr-docker
+     ports:
       - "5002:5002"
-    env_file:
+     env_file:
       - ./.env
   nginx:
     image: nginx:stable-alpine
