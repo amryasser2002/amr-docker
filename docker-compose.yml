@@ -1,7 +1,6 @@
 services:
   amr:
     container_name: cont-amr2
-    build: .
     ports:
       - "5002:5002"
     env_file:
