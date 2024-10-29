@@ -1,7 +1,4 @@
-FROM node:16 as base
-
-
-FROM base as production
+FROM node:16 as production
 
 WORKDIR /app
 COPY package.json .
@@ -10,7 +7,7 @@ COPY . .
 EXPOSE 5002
 CMD ["npm" , "start" ]
 
-FROM base as development
+FROM node:16 as development
 
 WORKDIR /app
 COPY package.json .
